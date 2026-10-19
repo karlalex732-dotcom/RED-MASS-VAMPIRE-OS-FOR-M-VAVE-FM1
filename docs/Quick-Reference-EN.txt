@@ -1,0 +1,33 @@
+RED MASS VAMPIRE OS v0.5.1-alpha — QUICK REFERENCE
+Developer & contributor: Karsei
+
+Windows: extract the entire ZIP and open RED-MASS-VAMPIRE-OS.exe. No Python required; installed Edge or Chrome is used. Full editor, backup/restore, installation and previews are inside the app.
+T6 kits: SMPKIT > NIGHT TRAP (deep/dry trap) or RAGE TRAP (aggressive rage trap). KIT indices 0 / 4; USER KIT 1–3 remain intact. White key 9 is the 808 (display label LT). Listen in the app's Trap kits tab.
+
+Hold HOME > SYSTEM > TOOLBOX > OCT+. K1 selects a tool; OCT+ opens. ALGORITHM selects tracks 1–6. Turn an action knob right, then OCT+; values change immediately.
+
+COPY: K1 scope, K4 page, K2/OCT+ copy, choose destination track/page, K3/OCT+ paste.
+CTRL ALL: K1 parameter, K2 amount, K3/OCT+ snapshot, K4/OCT+ reload.
+LOCKS: K1 step, K2 parameter, K3 value, K4 PUT/DELETE, OCT+.
+MACRO SET: K1 macro, K2 target, K3 parameter, K4 signed depth. MACROS: four live positions.
+MELODY: K1 density, K2 octave, K3 range, K4 seed, OCT+.
+MUTATE: K1 depth, K2 seed, K3/OCT+ apply, K4/OCT+ undo.
+BANK 256: K1 category, K2 sound, K3 favorite, K4 favorites only.
+MUTE GROUP: K1 group, K2 mask, K3/OCT+ capture, K4/OCT+ recall.
+DRUM CHANCE: track 6 SMPKIT, K1 pad, K2 chance; K3 all chance, K4/OCT+ apply all.
+MICRO: K1 step, K2 shift /32, K3/OCT+ zero, K4 amount/OCT+ humanize.
+HISTORY: K1/OCT+ undo, K2/OCT+ redo, K3 depth, K4/OCT+ clear.
+SCENES: K1/OCT+ A, K2/OCT+ B, K3 morph, K4/OCT+ A. Save full project.
+
+SONG: save source projects A–D; hold SEQ. K1 row, K2 source, K3 repeats, K4 ending. Tap SEQ > SONG ROW: row/length/tempo/mutes. Tap SEQ > SONG SET: sounds/start/loop-from/ending. PLAY starts/stops. Save full project. 32 rows reuse FOUR sources.
+
+SAVE held: step undo when history exists; otherwise the one-level sound/pattern swap. Use HISTORY for explicit step redo. Loads and generators clear step history. Stop playback/disarm REC for step history and destructive tools.
+
+BPM lock: hold HOME > CONTROL > BPM LOCK > OFF. With it ON, hold GLO while turning SELECT.
+
+The 256 sounds are built in; JSON import is optional. The device still has 32 editable user slots, six tracks and eight shared voices. Eight piano variations share recorded CC0 grand piano multisamples. Physical FM1 testing is pending.
+
+RED MASS: tracks 1–5 instruments, track 6 drums. Turn ALGORITHM to select.
+GLO held: black keys 1–6 mute; white F3–D4 solo; E4 all audible; F4 tap.
+GLO knobs: levels 1–4, or levels 5–6 on K1–K2 when track 5/6 is selected.
+Before installation: export a complete old-firmware backup and retain it for rollback.
