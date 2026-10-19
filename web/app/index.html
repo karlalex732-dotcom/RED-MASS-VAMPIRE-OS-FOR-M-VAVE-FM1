@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RED MASS VAMPIRE OS</title><link rel="icon" type="image/svg+xml" href="icon.svg">
+<style>
+:root{color-scheme:dark;font:15px/1.5 system-ui;background:#09090c;color:#fff}*{box-sizing:border-box}body{margin:0;height:100vh;display:flex;flex-direction:column}header{display:flex;align-items:center;justify-content:space-between;gap:20px;background:#ff2449;color:#09090c;padding:14px 24px}header b{font-size:23px;font-weight:900;letter-spacing:-.04em}header small{display:block;font-weight:650}header span{font-size:12px;font-weight:700}nav{display:flex;gap:7px;align-items:center;padding:12px 20px;border-bottom:1px solid #36363f;flex-wrap:wrap}button,a{font:inherit}nav button{border:0;background:#242428;color:#fff;padding:9px 16px;border-radius:5px;cursor:pointer;font-weight:700}nav button[aria-pressed=true]{background:#ff76b9;color:#09090c}nav .right{margin-left:auto;color:#ff76b9;font-size:12px}main{flex:1;min-height:0;position:relative;overflow:auto}iframe{width:100%;height:100%;border:0;display:block;background:#09090c}iframe[hidden]{display:none}.home{max-width:1130px;margin:auto;padding:40px 24px}.eyebrow{color:#ff76b9;letter-spacing:.14em;font-size:12px;font-weight:700}h1{font-size:clamp(42px,6vw,76px);line-height:1.05;letter-spacing:-.055em;margin:16px 0 22px;max-width:850px}p{color:#d4d4d9;max-width:75ch}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:32px 0}.card{background:#242428;padding:20px;border-top:3px solid #ff2449}.card b{display:block;font-size:36px;line-height:1.1}.card span{color:#ff76b9;font-size:13px}.actions{display:flex;gap:12px;flex-wrap:wrap}.actions button{border:0;border-radius:5px;padding:14px 22px;background:#ff2449;color:#09090c;font-weight:800;cursor:pointer}.actions button.secondary{background:#ff76b9}.capabilities{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:32px 0}.capabilities div{border:1px solid #36363f;padding:20px}.capabilities h2{font-size:19px;margin:0;color:#fff}.capabilities p{font-size:14px}.foot{font-size:12px;color:#85858c}.notice{border-left:4px solid #ff76b9;padding:12px 18px;background:#18181d;font-size:14px}footer{padding:7px 20px;border-top:1px solid #36363f;font-size:11px;color:#85858c;display:flex;gap:20px;justify-content:space-between}footer a{color:#ff76b9}@media(max-width:750px){header span{display:none}.cards{grid-template-columns:1fr 1fr}.capabilities{grid-template-columns:1fr}nav .right{display:none}header b{font-size:20px}}
+</style></head><body>
+<header><div><b>RED MASS VAMPIRE OS</b><small>FM-1 STUDIO & INSTALLER</small></div><span>Developer & contributor: Karsei</span></header>
+<nav aria-label="Application"><button data-view="home" aria-pressed="true">Home</button><button data-view="editor" aria-pressed="false">Full editor</button><button data-view="installer" aria-pressed="false">Install / recover</button><button data-view="sounds" aria-pressed="false">256 sounds</button><button data-view="kits" aria-pressed="false">Trap kits</button><button data-view="guide" aria-pressed="false">English guide</button><span class="right">LOCAL USB-MIDI · NO PYTHON REQUIRED</span></nav>
+<main><section class="home" id="home"><div class="eyebrow">RED MASS / v0.5.1 ALPHA</div><h1>Your FM-1.<br>A complete dark studio.</h1><p>Install the firmware, sculpt sounds, build patterns and arrange songs in one application. Everything runs from this extracted package; your music stays on your computer and FM-1.</p>
+<div class="actions"><button data-view="installer">Install RED MASS</button><button class="secondary" data-view="editor">Open full editor</button><button class="secondary" data-view="editor" data-tab="projects">Back up / restore</button></div>
+<div class="cards"><div class="card"><b>6</b><span>TRACKS · DRUMS ON T6</span></div><div class="card"><b>256</b><span>VAMPIRE PRESETS</span></div><div class="card"><b>32</b><span>SONG MODE ROWS</span></div><div class="card"><b>2</b><span>READY-TO-PLAY TRAP KITS</span></div></div>
+<div class="capabilities"><div><h2>The complete editor</h2><p>Sound parameters, envelopes, LFOs, modulation matrix, FM6 patch editing, effects, step sequencer, drum grid, six-track mixer, Song Mode, motion, samples, preset library, saved projects, complete backups and device settings.</p></div><div><h2>Connect. Back up. Install.</h2><p>Connect the powered FM-1 with a USB data cable. Close DAWs and other MIDI tabs, allow MIDI/SysEx access when prompted, and save your music before updating. The installer verifies the package and the device identity after restart.</p></div><div><h2>NIGHT TRAP + RAGE TRAP</h2><p>Two distinct original 16-pad kits: deep sustained 808s, punchy kicks, snappy snares, layered claps, crisp hats and tuned percussion. Both are built into the firmware and play on track 6.</p></div><div><h2>One bold visual system</h2><p>Red, black, pink, grey and white. Firmware labels and values now use the same bold font weight across the original screens and the performance tools.</p></div></div>
+<div class="notice">Alpha release. Host checks and build checks are documented in the package. Physical FM-1 and Windows runtime qualification are pending. Six tracks share eight sounding voices; there are 32 editable device preset slots.</div><p class="foot">To return here from a full-screen page, use the navigation above. Closing the app window leaves the local service available; right-click the RED MASS tray icon and choose Exit after finishing any update.</p></section>
+<iframe id="view" title="RED MASS application page" allow="midi; clipboard-write" hidden></iframe></main>
+<footer><span>RED MASS VAMPIRE OS · Developer: Karsei</span><span><a href="../../../LICENSING.md" target="_blank">Licenses & original credits</a> · <a href="../../../validation/TESTING-EN.txt" target="_blank">Validation</a></span></footer>
+<script>
+const frame=document.getElementById('view'),home=document.getElementById('home');
+const routes={editor:'../editor/',installer:'../installer/',sounds:'../../../preview/index.html',kits:'../../../audio/trap-kits/index.html',guide:'../../../docs/RED-MASS-English-Guide.html'};
+let current='home', operation=false, transitioning=false;
+const refreshLocks=()=>document.querySelectorAll('[data-view]').forEach(b=>b.disabled=operation||transitioning);
+window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='redmass-operation'){operation=!!e.data.busy;refreshLocks();}});
+window.addEventListener('beforeunload',e=>{if(operation||transitioning){e.preventDefault();e.returnValue='Device operation in progress';}});
+async function show(view,tab){
+ if(operation||transitioning)return;
+ if(view===current&&view!=='home'){
+  if(tab)frame.contentWindow.document.querySelector('button[role="tab"][data-tab="'+tab+'"]')?.click();
+  return;
+ }
+ if(view!==current&&current==='editor'){
+  transitioning=true;refreshLocks();
+  try { await frame.contentWindow.redMassReleaseDevice?.(); }
+  finally { transitioning=false;refreshLocks(); }
+ }
+ current=view;home.hidden=view!=='home';frame.hidden=view==='home';
+ document.querySelectorAll('nav [data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
+ if(view!=='home'){
+  frame.onload=()=>{if(tab){const b=frame.contentWindow.document.querySelector('button[role="tab"][data-tab="'+tab+'"]');if(b)b.click();}};
+  frame.src=routes[view];
+ }
+}
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.view,b.dataset.tab)));
+</script></body></html>
