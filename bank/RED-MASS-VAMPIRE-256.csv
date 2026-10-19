@@ -1,0 +1,257 @@
+number,name,category,role,engine,factory_index,track_voice_cap,new_in_v0.4
+1,001 CRYPT808,01 Sub and 808,sub,ANALOG,12,8,0
+2,002 BLOODSUB,01 Sub and 808,sub,ANALOG,13,8,0
+3,003 SINEFANG,01 Sub and 808,sub,FM6,8,6,0
+4,004 TOMB808,01 Sub and 808,sub,TRIO,5,8,0
+5,005 NOIRBOOM,01 Sub and 808,sub,PHASE,6,8,0
+6,006 VELVET08,01 Sub and 808,sub,ANALOG,14,8,0
+7,007 ABYSS808,01 Sub and 808,sub,TRIO,6,8,0
+8,008 NITEPULS,01 Sub and 808,sub,ANALOG,15,8,0
+9,009 IRON808,02 Saturated bass,bass,ANALOG,16,8,0
+10,010 FANGCLIP,02 Saturated bass,bass,TRIO,7,8,0
+11,011 HEXDRIVE,02 Saturated bass,bass,PHASE,7,8,0
+12,012 BLACKBIT,02 Saturated bass,bass,LOFI,5,8,0
+13,013 RUSTSUB,02 Saturated bass,bass,FM6,9,6,0
+14,014 BLOODSAW,02 Saturated bass,bass,ANALOG,17,8,0
+15,015 VILE808,02 Saturated bass,bass,TRIO,8,8,0
+16,016 GRAVEBIT,02 Saturated bass,bass,LOFI,6,8,0
+17,017 WOLFREES,03 Reese and growl,reese,TRIO,9,8,0
+18,018 COFFINRX,03 Reese and growl,reese,ANALOG,18,8,0
+19,019 VAMPWARP,03 Reese and growl,reese,TRIO,10,8,0
+20,020 REDGROWL,03 Reese and growl,reese,VOICE,4,4,0
+21,021 CHROME,03 Reese and growl,reese,PHASE,8,8,0
+22,022 RAVEBITE,03 Reese and growl,reese,TRIO,11,8,0
+23,023 VIRUSLOW,03 Reese and growl,reese,FM6,10,6,0
+24,024 PULSEHEX,03 Reese and growl,reese,ANALOG,19,8,0
+25,025 GHOULWOW,04 Talking bass,talkbass,VOICE,5,4,0
+26,026 FANGTALK,04 Talking bass,talkbass,VOICE,6,4,0
+27,027 CRYBASS,04 Talking bass,talkbass,VAMPIRE,64,4,0
+28,028 MAWFORM,04 Talking bass,talkbass,VOICE,7,4,0
+29,029 DARKVOW,04 Talking bass,talkbass,VOICE,8,4,0
+30,030 MURMUR,04 Talking bass,talkbass,VAMPIRE,65,4,0
+31,031 TONGUE,04 Talking bass,talkbass,FM6,11,6,0
+32,032 ORCLOW,04 Talking bass,talkbass,TRIO,12,8,0
+33,033 DEATHBELL,05 Ritual bells,bell,FM6,12,6,0
+34,034 GLASSHEX,05 Ritual bells,bell,PHASE,9,8,0
+35,035 IRONCHIM,05 Ritual bells,bell,PHYS,9,3,0
+36,036 CRIMSON,05 Ritual bells,bell,VAMPIRE,66,4,0
+37,037 BROKENTL,05 Ritual bells,bell,TRIO,13,8,0
+38,038 GHOSTTOLL,05 Ritual bells,bell,FM6,13,6,0
+39,039 FROSTBEL,05 Ritual bells,bell,PHYS,10,3,0
+40,040 MOONRING,05 Ritual bells,bell,PHASE,10,8,0
+41,041 BONEHARP,06 Bone plucks,pluck,PHYS,11,3,0
+42,042 COFFINPK,06 Bone plucks,pluck,ANALOG,20,8,0
+43,043 SILVERPK,06 Bone plucks,pluck,FM6,14,6,0
+44,044 GUTSTRING,06 Bone plucks,pluck,PHYS,12,3,0
+45,045 NEEDLE,06 Bone plucks,pluck,PHASE,11,8,0
+46,046 BATPLUCK,06 Bone plucks,pluck,LOFI,7,8,0
+47,047 FANGZITH,06 Bone plucks,pluck,TRIO,14,8,0
+48,048 DUSKPIN,06 Bone plucks,pluck,ANALOG,21,8,0
+49,049 NOIREP,07 Dark keys,keys,FM6,15,6,0
+50,050 TOMBKEY,07 Dark keys,keys,WHEEL,5,8,0
+51,051 DUSTTINE,07 Dark keys,keys,FM6,16,6,0
+52,052 CHIPIVRY,07 Dark keys,keys,LOFI,8,8,0
+53,053 CANDLE,07 Dark keys,keys,PHASE,12,8,0
+54,054 ASHPIANO,07 Dark keys,keys,FM6,17,6,0
+55,055 MIDNITE,07 Dark keys,keys,ANALOG,22,8,0
+56,056 GOTHKEY,07 Dark keys,keys,WHEEL,6,8,0
+57,057 RAZOR,08 Feral leads,lead,TRIO,15,8,0
+58,058 BATSIGNAL,08 Feral leads,lead,ANALOG,23,8,0
+59,059 VAMPACID,08 Feral leads,lead,ANALOG,24,8,0
+60,060 REDLASER,08 Feral leads,lead,PHASE,13,8,0
+61,061 CRYPTIC,08 Feral leads,lead,LOFI,9,8,0
+62,062 FANGVOX,08 Feral leads,lead,VOICE,9,4,0
+63,063 IRONFM,08 Feral leads,lead,FM6,18,6,0
+64,064 SPECTER,08 Feral leads,lead,TRIO,16,8,0
+65,065 NOSFERA2,09 Vampire choirs,choir,VAMPIRE,67,4,0
+66,066 LILITH2,09 Vampire choirs,choir,VOICE,10,4,0
+67,067 BLOODAAH,09 Vampire choirs,choir,VOICE,11,4,0
+68,068 BLACKOH,09 Vampire choirs,choir,VOICE,12,4,0
+69,069 VEILOOH,09 Vampire choirs,choir,VOICE,13,4,0
+70,070 CRYPTMASS,09 Vampire choirs,choir,VAMPIRE,68,4,0
+71,071 BANSHEE2,09 Vampire choirs,choir,VAMPIRE,69,4,0
+72,072 ANGELASH,09 Vampire choirs,choir,FM6,19,6,0
+73,073 MOONVEIL,10 Haunted pads,pad,ANALOG,25,8,0
+74,074 DARKHALO,10 Haunted pads,pad,PHASE,14,8,0
+75,075 VELVET,10 Haunted pads,pad,TRIO,17,8,0
+76,076 GHOSTLACE,10 Haunted pads,pad,VAMPIRE,70,4,0
+77,077 NIGHTSEA,10 Haunted pads,pad,FM6,20,6,0
+78,078 BLOODGLS,10 Haunted pads,pad,PHASE,15,8,0
+79,079 STILLNESS,10 Haunted pads,pad,VAMPIRE,71,4,0
+80,080 SLOWFANG,10 Haunted pads,pad,ANALOG,26,8,0
+81,081 COFFINBW,11 Cursed strings,string,PHYS,13,3,0
+82,082 REDVIOLA,11 Cursed strings,string,VAMPIRE,72,4,0
+83,083 DARKCELLO,11 Cursed strings,string,PHYS,14,3,0
+84,084 GUTSAW,11 Cursed strings,string,TRIO,18,8,0
+85,085 SILKHEX,11 Cursed strings,string,PHASE,16,8,0
+86,086 FROSTBOW,11 Cursed strings,string,PHYS,15,3,0
+87,087 NITESTR,11 Cursed strings,string,ANALOG,27,8,0
+88,088 FANGHARM,11 Cursed strings,string,TRIO,19,8,0
+89,089 ALTAR,12 Black organs,organ,WHEEL,7,8,0
+90,090 SACRIFCE,12 Black organs,organ,WHEEL,8,8,0
+91,091 VESPER2,12 Black organs,organ,VAMPIRE,73,4,0
+92,092 CHAPEL,12 Black organs,organ,PHASE,17,8,0
+93,093 GARGOYLE,12 Black organs,organ,FM6,21,6,0
+94,094 DUSKPIPE,12 Black organs,organ,WHEEL,9,8,0
+95,095 IRONMASS,12 Black organs,organ,WHEEL,10,8,0
+96,096 TOMBREED,12 Black organs,organ,VAMPIRE,74,4,0
+97,097 FANGCHOP,13 Vocal stabs,stab,VOICE,14,4,0
+98,098 BLOODHEY,13 Vocal stabs,stab,VAMPIRE,75,4,0
+99,099 WHISPRPK,13 Vocal stabs,stab,VOICE,15,4,0
+100,100 GHOULAH,13 Vocal stabs,stab,VOICE,16,4,0
+101,101 CRYPTCUT,13 Vocal stabs,stab,VAMPIRE,76,4,0
+102,102 NIGHTERR,13 Vocal stabs,stab,LOFI,10,8,0
+103,103 RITUAL,13 Vocal stabs,stab,VOICE,17,4,0
+104,104 LAMENT,13 Vocal stabs,stab,VAMPIRE,77,4,0
+105,105 BATGATE,14 Pulse and motion,pulse,ANALOG,28,8,0
+106,106 CRYPTSEQ,14 Pulse and motion,pulse,LOFI,11,8,0
+107,107 HEXSTEPS,14 Pulse and motion,pulse,LOFI,12,8,0
+108,108 BLOODPMP,14 Pulse and motion,pulse,TRIO,20,8,0
+109,109 RAVEGATE,14 Pulse and motion,pulse,PHASE,18,8,0
+110,110 GHOSTCLK,14 Pulse and motion,pulse,NOISE,4,8,0
+111,111 RAINROLL,14 Pulse and motion,pulse,VAMPIRE,78,4,0
+112,112 BATWINGS,14 Pulse and motion,pulse,VAMPIRE,79,4,0
+113,113 BONEHIT,15 Tuned percussion,perc,PHYS,16,3,0
+114,114 CHAINHIT,15 Tuned percussion,perc,NOISE,5,8,0
+115,115 CRYPTWOOD,15 Tuned percussion,perc,FM6,22,6,0
+116,116 FANGMETL,15 Tuned percussion,perc,TRIO,21,8,0
+117,117 RIMHEX,15 Tuned percussion,perc,PHYS,17,3,0
+118,118 GHOSTHAT,15 Tuned percussion,perc,NOISE,6,8,0
+119,119 TOMBTRI,15 Tuned percussion,perc,PHASE,19,8,0
+120,120 ASHCLAP,15 Tuned percussion,perc,NOISE,7,8,0
+121,121 THUNDER2,16 Storm and nightmare,fx,VAMPIRE,80,4,0
+122,122 CRYPTDUST,16 Storm and nightmare,fx,NOISE,8,8,0
+123,123 RAINSILK,16 Storm and nightmare,fx,VAMPIRE,81,4,0
+124,124 DREADFM,16 Storm and nightmare,fx,FM6,23,6,0
+125,125 BLOODWND,16 Storm and nightmare,fx,NOISE,9,8,0
+126,126 BATSWARM,16 Storm and nightmare,fx,TRIO,22,8,0
+127,127 GHOSTLFS,16 Storm and nightmare,fx,NOISE,10,8,0
+128,128 ENDRUMBL,16 Storm and nightmare,fx,VAMPIRE,82,4,0
+129,129 BLOODWIRE,17 Club plucks,pluck,PHYS,18,3,1
+130,130 NIGHTWIRE,17 Club plucks,pluck,PHYS,19,3,1
+131,131 ASHWIRE,17 Club plucks,pluck,PHYS,20,3,1
+132,132 FANGWIRE,17 Club plucks,pluck,PHYS,21,3,1
+133,133 IRONTOLL,17 Club plucks,pluck,PHYS,22,3,1
+134,134 REDTOLL,17 Club plucks,pluck,PHYS,23,3,1
+135,135 CRYPTTOLL,17 Club plucks,pluck,PHYS,24,3,1
+136,136 DUSKTOLL,17 Club plucks,pluck,PHYS,25,3,1
+137,137 BONEHARP,17 Club plucks,pluck,PHYS,26,3,1
+138,138 HEXHARP,17 Club plucks,pluck,PHYS,27,3,1
+139,139 SILKHARP,17 Club plucks,pluck,PHYS,28,3,1
+140,140 GRAVEHARP,17 Club plucks,pluck,PHYS,29,3,1
+141,141 BATSTAB,17 Club plucks,pluck,ANALOG,29,8,1
+142,142 COFFSTAB,17 Club plucks,pluck,ANALOG,30,8,1
+143,143 VEINSTAB,17 Club plucks,pluck,ANALOG,31,8,1
+144,144 NITESTAB,17 Club plucks,pluck,ANALOG,32,8,1
+145,145 GHOSTPIN,17 Club plucks,pluck,PHASE,20,8,1
+146,146 THORNPIN,17 Club plucks,pluck,PHASE,21,8,1
+147,147 SILVERPIN,17 Club plucks,pluck,PHASE,22,8,1
+148,148 RAVEPIN,17 Club plucks,pluck,PHASE,23,8,1
+149,149 RUBYGLAS,17 Club plucks,pluck,PHASE,24,8,1
+150,150 BLACKGLAS,17 Club plucks,pluck,PHASE,25,8,1
+151,151 FROSTGLAS,17 Club plucks,pluck,PHASE,26,8,1
+152,152 GRAVEGLAS,17 Club plucks,pluck,PHASE,27,8,1
+153,153 HEXCRYST,17 Club plucks,pluck,FM6,24,6,1
+154,154 NITECRYST,17 Club plucks,pluck,FM6,25,6,1
+155,155 FANGCRYST,17 Club plucks,pluck,FM6,26,6,1
+156,156 ASHCRYST,17 Club plucks,pluck,FM6,27,6,1
+157,157 TOMBWOOD,17 Club plucks,pluck,FM6,28,6,1
+158,158 DARKWOOD,17 Club plucks,pluck,FM6,29,6,1
+159,159 BONESNAP,17 Club plucks,pluck,FM6,30,6,1
+160,160 CRYPTSNAP,17 Club plucks,pluck,FM6,31,6,1
+161,161 MOONZITH,17 Club plucks,pluck,TRIO,23,8,1
+162,162 REDZITH,17 Club plucks,pluck,TRIO,24,8,1
+163,163 NIGHTZITH,17 Club plucks,pluck,TRIO,25,8,1
+164,164 FANGZITH,17 Club plucks,pluck,TRIO,26,8,1
+165,165 BATMALLET,17 Club plucks,pluck,VAMPIRE,83,4,1
+166,166 HEXMALLET,17 Club plucks,pluck,VAMPIRE,84,4,1
+167,167 ASHMALLET,17 Club plucks,pluck,VAMPIRE,85,4,1
+168,168 IRONMAL,17 Club plucks,pluck,VAMPIRE,86,4,1
+169,169 DARKSWELL,18 Vampire pads,pad,ANALOG,33,8,1
+170,170 NIGHTWASH,18 Vampire pads,pad,ANALOG,34,8,1
+171,171 BLOODSEA,18 Vampire pads,pad,ANALOG,35,8,1
+172,172 ABYSSFLOW,18 Vampire pads,pad,ANALOG,36,8,1
+173,173 MOONVELV,18 Vampire pads,pad,ANALOG,37,8,1
+174,174 REDVELV,18 Vampire pads,pad,ANALOG,38,8,1
+175,175 ASHVELV,18 Vampire pads,pad,ANALOG,39,8,1
+176,176 BLACKVELV,18 Vampire pads,pad,ANALOG,40,8,1
+177,177 VEILDRIFT,18 Vampire pads,pad,PHASE,28,8,1
+178,178 HEXDRIFT,18 Vampire pads,pad,PHASE,29,8,1
+179,179 BATDRIFT,18 Vampire pads,pad,PHASE,30,8,1
+180,180 DUSKDRIFT,18 Vampire pads,pad,PHASE,31,8,1
+181,181 FROSTAURA,18 Vampire pads,pad,PHASE,32,8,1
+182,182 GLASSAURA,18 Vampire pads,pad,PHASE,33,8,1
+183,183 REDAURA,18 Vampire pads,pad,PHASE,34,8,1
+184,184 DEADAURA,18 Vampire pads,pad,PHASE,35,8,1
+185,185 COFFINSEA,18 Vampire pads,pad,TRIO,27,8,1
+186,186 WOLFHALO,18 Vampire pads,pad,TRIO,28,8,1
+187,187 RAVEHALO,18 Vampire pads,pad,TRIO,29,8,1
+188,188 IRONHALO,18 Vampire pads,pad,TRIO,30,8,1
+189,189 NOIRSHIM,18 Vampire pads,pad,TRIO,31,8,1
+190,190 ASHSHIM,18 Vampire pads,pad,TRIO,32,8,1
+191,191 GHOSTSHIM,18 Vampire pads,pad,TRIO,33,8,1
+192,192 VEINSHIM,18 Vampire pads,pad,TRIO,34,8,1
+193,193 CRYPTOOH,18 Vampire pads,pad,VOICE,18,4,1
+194,194 HUSHOOH,18 Vampire pads,pad,VOICE,19,4,1
+195,195 LOSTOOH,18 Vampire pads,pad,VOICE,20,4,1
+196,196 SHADOWOOH,18 Vampire pads,pad,VOICE,21,4,1
+197,197 NIGHTMASS,18 Vampire pads,pad,VAMPIRE,87,4,1
+198,198 LILITHSEA,18 Vampire pads,pad,VAMPIRE,88,4,1
+199,199 CHOIRVEIL,18 Vampire pads,pad,VAMPIRE,89,4,1
+200,200 BATCATHED,18 Vampire pads,pad,VAMPIRE,90,4,1
+201,201 BLOODBOW,18 Vampire pads,pad,VAMPIRE,91,4,1
+202,202 SILKBOW,18 Vampire pads,pad,VAMPIRE,92,4,1
+203,203 ASHBOW,18 Vampire pads,pad,VAMPIRE,93,4,1
+204,204 DEADVIOLA,18 Vampire pads,pad,VAMPIRE,94,4,1
+205,205 ECLIPSE,18 Vampire pads,pad,FM6,32,6,1
+206,206 VOIDSHIM,18 Vampire pads,pad,FM6,33,6,1
+207,207 NIGHTICE,18 Vampire pads,pad,FM6,34,6,1
+208,208 CRIMHALO,18 Vampire pads,pad,FM6,35,6,1
+209,209 RAZORTECH,19 Feral club leads,lead,ANALOG,41,8,1
+210,210 BATLASER,19 Feral club leads,lead,ANALOG,42,8,1
+211,211 FANGRAVE,19 Feral club leads,lead,ANALOG,43,8,1
+212,212 REDSIGNAL,19 Feral club leads,lead,ANALOG,44,8,1
+213,213 HEXACID,19 Feral club leads,lead,ANALOG,45,8,1
+214,214 CRYPTACID,19 Feral club leads,lead,ANALOG,46,8,1
+215,215 BLOODACID,19 Feral club leads,lead,ANALOG,47,8,1
+216,216 VILEACID,19 Feral club leads,lead,ANALOG,48,8,1
+217,217 IRONPHAS,19 Feral club leads,lead,PHASE,36,8,1
+218,218 FROSTPHAS,19 Feral club leads,lead,PHASE,37,8,1
+219,219 DARKPHAS,19 Feral club leads,lead,PHASE,38,8,1
+220,220 NITEPHAS,19 Feral club leads,lead,PHASE,39,8,1
+221,221 GRAVEPLS,19 Feral club leads,lead,PHASE,40,8,1
+222,222 RAVEPULSE,19 Feral club leads,lead,PHASE,41,8,1
+223,223 FANGPULSE,19 Feral club leads,lead,PHASE,42,8,1
+224,224 REDPULSE,19 Feral club leads,lead,PHASE,43,8,1
+225,225 WOLFSYNC,19 Feral club leads,lead,TRIO,35,8,1
+226,226 BLOODSYNC,19 Feral club leads,lead,TRIO,36,8,1
+227,227 CRYPTSYNC,19 Feral club leads,lead,TRIO,37,8,1
+228,228 BATSYNC,19 Feral club leads,lead,TRIO,38,8,1
+229,229 NOIRDUAL,19 Feral club leads,lead,TRIO,39,8,1
+230,230 SILVERJET,19 Feral club leads,lead,TRIO,40,8,1
+231,231 NIGHTJET,19 Feral club leads,lead,TRIO,41,8,1
+232,232 FANGJET,19 Feral club leads,lead,TRIO,42,8,1
+233,233 CHROME8,19 Feral club leads,lead,LOFI,13,8,1
+234,234 CRYPTBYTE,19 Feral club leads,lead,LOFI,14,8,1
+235,235 BLOODBIT,19 Feral club leads,lead,LOFI,15,8,1
+236,236 RAVEBIT,19 Feral club leads,lead,LOFI,16,8,1
+237,237 FANGCHANT,19 Feral club leads,lead,VOICE,22,4,1
+238,238 HEXCHANT,19 Feral club leads,lead,VOICE,23,4,1
+239,239 ASHCHANT,19 Feral club leads,lead,VOICE,24,4,1
+240,240 WOLFCHANT,19 Feral club leads,lead,VOICE,25,4,1
+241,241 BANSHEE3,19 Feral club leads,lead,VAMPIRE,95,4,1
+242,242 REDHOWL,19 Feral club leads,lead,VAMPIRE,96,4,1
+243,243 CRYPTHOWL,19 Feral club leads,lead,VAMPIRE,97,4,1
+244,244 BATSCREAM,19 Feral club leads,lead,VAMPIRE,98,4,1
+245,245 IRONFANG,19 Feral club leads,lead,FM6,36,6,1
+246,246 DARKFM,19 Feral club leads,lead,FM6,37,6,1
+247,247 VEINFM,19 Feral club leads,lead,FM6,38,6,1
+248,248 CRIMFM,19 Feral club leads,lead,FM6,39,6,1
+249,249 DREADGRND,20 Sinister grand pianos,piano,SAMPLE,5,8,1
+250,250 BLACKIVRY,20 Sinister grand pianos,piano,SAMPLE,6,8,1
+251,251 IRONHAMMR,20 Sinister grand pianos,piano,SAMPLE,7,8,1
+252,252 CRYPTROOM,20 Sinister grand pianos,piano,SAMPLE,8,8,1
+253,253 BLOODGLAS,20 Sinister grand pianos,piano,SAMPLE,9,8,1
+254,254 VELVETKEY,20 Sinister grand pianos,piano,SAMPLE,10,8,1
+255,255 FANGSTACC,20 Sinister grand pianos,piano,SAMPLE,11,8,1
+256,256 GRAVECONC,20 Sinister grand pianos,piano,SAMPLE,12,8,1

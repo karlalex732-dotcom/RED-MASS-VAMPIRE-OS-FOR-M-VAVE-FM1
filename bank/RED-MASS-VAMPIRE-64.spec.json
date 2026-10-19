@@ -1,0 +1,2376 @@
+{
+  "format": "red_mass-vampire-bank",
+  "version": 1,
+  "firmware": "RED_MASS Vampire v0.1.0-alpha",
+  "status": "host-rendered, hardware not tested",
+  "presets": [
+    {
+      "number": 1,
+      "name": "NOSFERATU",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        34,
+        8,
+        30,
+        6,
+        6,
+        24,
+        -12
+      ],
+      "envelope": [
+        50,
+        70,
+        104,
+        75
+      ],
+      "effects": [
+        6,
+        24,
+        12,
+        52
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 2,
+      "name": "BLOOD MASS",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        47,
+        25,
+        49,
+        15,
+        17,
+        35,
+        0
+      ],
+      "envelope": [
+        54,
+        73,
+        106,
+        81
+      ],
+      "effects": [
+        13,
+        33,
+        19,
+        59
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 3,
+      "name": "VESPER",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        60,
+        42,
+        68,
+        24,
+        28,
+        46,
+        0
+      ],
+      "envelope": [
+        58,
+        76,
+        108,
+        87
+      ],
+      "effects": [
+        20,
+        42,
+        26,
+        66
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 4,
+      "name": "LILITH",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        73,
+        59,
+        87,
+        33,
+        39,
+        57,
+        7
+      ],
+      "envelope": [
+        62,
+        79,
+        110,
+        93
+      ],
+      "effects": [
+        27,
+        51,
+        33,
+        73
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 5,
+      "name": "DARK CHOIR",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        86,
+        76,
+        106,
+        42,
+        8,
+        68,
+        12
+      ],
+      "envelope": [
+        66,
+        82,
+        112,
+        99
+      ],
+      "effects": [
+        34,
+        60,
+        40,
+        80
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 6,
+      "name": "SANGUINE",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        99,
+        18,
+        45,
+        51,
+        19,
+        79,
+        -5
+      ],
+      "envelope": [
+        70,
+        85,
+        114,
+        105
+      ],
+      "effects": [
+        41,
+        69,
+        47,
+        87
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 7,
+      "name": "VEIL VOICES",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        36,
+        35,
+        64,
+        60,
+        30,
+        90,
+        0
+      ],
+      "envelope": [
+        74,
+        88,
+        116,
+        111
+      ],
+      "effects": [
+        12,
+        78,
+        54,
+        94
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 8,
+      "name": "MIDNIGHT AA",
+      "category": "Choirs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 0,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        0,
+        49,
+        52,
+        83,
+        69,
+        41,
+        101,
+        12
+      ],
+      "envelope": [
+        78,
+        91,
+        118,
+        117
+      ],
+      "effects": [
+        19,
+        27,
+        15,
+        101
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 9,
+      "name": "BANSHEE",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        45,
+        48,
+        37,
+        6,
+        12,
+        24,
+        -12
+      ],
+      "envelope": [
+        4,
+        80,
+        45,
+        80
+      ],
+      "effects": [
+        9,
+        29,
+        15,
+        57
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 10,
+      "name": "FANG CRY",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        58,
+        55,
+        56,
+        15,
+        17,
+        35,
+        0
+      ],
+      "envelope": [
+        9,
+        84,
+        54,
+        85
+      ],
+      "effects": [
+        16,
+        38,
+        22,
+        64
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 11,
+      "name": "NIGHT WAIL",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        71,
+        62,
+        75,
+        24,
+        22,
+        46,
+        0
+      ],
+      "envelope": [
+        14,
+        88,
+        63,
+        90
+      ],
+      "effects": [
+        23,
+        47,
+        29,
+        71
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 12,
+      "name": "FERAL",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        84,
+        69,
+        94,
+        33,
+        27,
+        57,
+        7
+      ],
+      "envelope": [
+        19,
+        92,
+        72,
+        95
+      ],
+      "effects": [
+        30,
+        56,
+        36,
+        78
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 13,
+      "name": "LAST BREATH",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        97,
+        76,
+        33,
+        42,
+        32,
+        68,
+        12
+      ],
+      "envelope": [
+        24,
+        96,
+        81,
+        100
+      ],
+      "effects": [
+        37,
+        65,
+        43,
+        85
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 14,
+      "name": "BLOOD HOWL",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        34,
+        83,
+        52,
+        51,
+        37,
+        79,
+        -5
+      ],
+      "envelope": [
+        29,
+        100,
+        90,
+        105
+      ],
+      "effects": [
+        8,
+        74,
+        50,
+        92
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 15,
+      "name": "CRYPT SCREAM",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        47,
+        90,
+        71,
+        60,
+        42,
+        90,
+        0
+      ],
+      "envelope": [
+        34,
+        104,
+        99,
+        110
+      ],
+      "effects": [
+        15,
+        83,
+        57,
+        99
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 16,
+      "name": "RED WHISPER",
+      "category": "Screams",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 1,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        1,
+        60,
+        97,
+        90,
+        69,
+        47,
+        101,
+        12
+      ],
+      "envelope": [
+        39,
+        108,
+        108,
+        115
+      ],
+      "effects": [
+        22,
+        32,
+        18,
+        106
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 17,
+      "name": "CRYPT RAIN",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        56,
+        26,
+        10,
+        6,
+        30,
+        24,
+        -12
+      ],
+      "envelope": [
+        50,
+        70,
+        104,
+        75
+      ],
+      "effects": [
+        12,
+        34,
+        18,
+        62
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 18,
+      "name": "BLACK RAIN",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        69,
+        43,
+        16,
+        15,
+        33,
+        35,
+        0
+      ],
+      "envelope": [
+        54,
+        73,
+        106,
+        81
+      ],
+      "effects": [
+        19,
+        43,
+        25,
+        69
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 19,
+      "name": "GRAVE DROPS",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        82,
+        60,
+        22,
+        24,
+        36,
+        46,
+        0
+      ],
+      "envelope": [
+        58,
+        76,
+        108,
+        87
+      ],
+      "effects": [
+        26,
+        52,
+        32,
+        76
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 20,
+      "name": "IRON RAIN",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        95,
+        77,
+        28,
+        33,
+        39,
+        57,
+        7
+      ],
+      "envelope": [
+        62,
+        79,
+        110,
+        93
+      ],
+      "effects": [
+        33,
+        61,
+        39,
+        83
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 21,
+      "name": "WET STONE",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        108,
+        19,
+        34,
+        42,
+        42,
+        68,
+        12
+      ],
+      "envelope": [
+        66,
+        82,
+        112,
+        99
+      ],
+      "effects": [
+        40,
+        70,
+        46,
+        90
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 22,
+      "name": "RAIN VEIL",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        45,
+        36,
+        40,
+        51,
+        45,
+        79,
+        -5
+      ],
+      "envelope": [
+        70,
+        85,
+        114,
+        105
+      ],
+      "effects": [
+        11,
+        79,
+        53,
+        97
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 23,
+      "name": "NIGHT DRIZZL",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        58,
+        53,
+        46,
+        60,
+        48,
+        90,
+        0
+      ],
+      "envelope": [
+        74,
+        88,
+        116,
+        111
+      ],
+      "effects": [
+        18,
+        28,
+        14,
+        104
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 24,
+      "name": "RAIN MIRROR",
+      "category": "Rain",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 2,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        2,
+        71,
+        70,
+        52,
+        69,
+        51,
+        101,
+        12
+      ],
+      "envelope": [
+        78,
+        91,
+        118,
+        117
+      ],
+      "effects": [
+        25,
+        37,
+        21,
+        111
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 25,
+      "name": "THUNDER",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        22,
+        35,
+        12,
+        6,
+        18,
+        24,
+        -12
+      ],
+      "envelope": [
+        0,
+        80,
+        45,
+        80
+      ],
+      "effects": [
+        15,
+        39,
+        21,
+        67
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 26,
+      "name": "RED TEMPEST",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        27,
+        52,
+        20,
+        15,
+        29,
+        35,
+        0
+      ],
+      "envelope": [
+        3,
+        84,
+        54,
+        85
+      ],
+      "effects": [
+        22,
+        48,
+        28,
+        74
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 27,
+      "name": "STORM CELL",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        32,
+        69,
+        28,
+        24,
+        40,
+        46,
+        0
+      ],
+      "envelope": [
+        6,
+        88,
+        63,
+        90
+      ],
+      "effects": [
+        29,
+        57,
+        35,
+        81
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 28,
+      "name": "GRAVE RUMBLE",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        37,
+        11,
+        36,
+        33,
+        9,
+        57,
+        7
+      ],
+      "envelope": [
+        9,
+        92,
+        72,
+        95
+      ],
+      "effects": [
+        36,
+        66,
+        42,
+        88
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 29,
+      "name": "DARK SKY",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        42,
+        28,
+        44,
+        42,
+        20,
+        68,
+        12
+      ],
+      "envelope": [
+        12,
+        96,
+        81,
+        100
+      ],
+      "effects": [
+        7,
+        75,
+        49,
+        95
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 30,
+      "name": "BLOOD STORM",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        47,
+        45,
+        52,
+        51,
+        31,
+        79,
+        -5
+      ],
+      "envelope": [
+        15,
+        100,
+        90,
+        105
+      ],
+      "effects": [
+        14,
+        24,
+        56,
+        102
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 31,
+      "name": "BLACK CLOUD",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        52,
+        62,
+        60,
+        60,
+        42,
+        90,
+        0
+      ],
+      "envelope": [
+        18,
+        104,
+        99,
+        110
+      ],
+      "effects": [
+        21,
+        33,
+        17,
+        109
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 32,
+      "name": "STORM CHOIR",
+      "category": "Storms",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 3,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        3,
+        57,
+        79,
+        68,
+        69,
+        11,
+        101,
+        12
+      ],
+      "envelope": [
+        21,
+        108,
+        108,
+        115
+      ],
+      "effects": [
+        28,
+        42,
+        24,
+        54
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 33,
+      "name": "COFFIN MIST",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        78,
+        44,
+        58,
+        6,
+        22,
+        24,
+        -12
+      ],
+      "envelope": [
+        50,
+        70,
+        104,
+        75
+      ],
+      "effects": [
+        18,
+        44,
+        24,
+        72
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 34,
+      "name": "MOURNING",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        91,
+        61,
+        77,
+        15,
+        33,
+        35,
+        0
+      ],
+      "envelope": [
+        54,
+        73,
+        106,
+        81
+      ],
+      "effects": [
+        25,
+        53,
+        31,
+        79
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 35,
+      "name": "ASH VEIL",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        104,
+        78,
+        96,
+        24,
+        44,
+        46,
+        0
+      ],
+      "envelope": [
+        58,
+        76,
+        108,
+        87
+      ],
+      "effects": [
+        32,
+        62,
+        38,
+        86
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 36,
+      "name": "GHOST DUST",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        41,
+        20,
+        35,
+        33,
+        13,
+        57,
+        7
+      ],
+      "envelope": [
+        62,
+        79,
+        110,
+        93
+      ],
+      "effects": [
+        39,
+        71,
+        45,
+        93
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 37,
+      "name": "TOMB AIR",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        54,
+        37,
+        54,
+        42,
+        24,
+        68,
+        12
+      ],
+      "envelope": [
+        66,
+        82,
+        112,
+        99
+      ],
+      "effects": [
+        10,
+        80,
+        52,
+        100
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 38,
+      "name": "SILVER FOG",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        67,
+        54,
+        73,
+        51,
+        35,
+        79,
+        -5
+      ],
+      "envelope": [
+        70,
+        85,
+        114,
+        105
+      ],
+      "effects": [
+        17,
+        29,
+        13,
+        107
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 39,
+      "name": "SPORE",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        80,
+        71,
+        92,
+        60,
+        46,
+        90,
+        0
+      ],
+      "envelope": [
+        74,
+        88,
+        116,
+        111
+      ],
+      "effects": [
+        24,
+        38,
+        20,
+        52
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 40,
+      "name": "ETERNAL FOG",
+      "category": "Textures",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 4,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        4,
+        93,
+        13,
+        31,
+        69,
+        15,
+        101,
+        12
+      ],
+      "envelope": [
+        78,
+        91,
+        118,
+        117
+      ],
+      "effects": [
+        31,
+        47,
+        27,
+        59
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 41,
+      "name": "TOLL",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        89,
+        53,
+        74,
+        6,
+        26,
+        24,
+        -12
+      ],
+      "envelope": [
+        0,
+        88,
+        0,
+        84
+      ],
+      "effects": [
+        21,
+        49,
+        27,
+        77
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 42,
+      "name": "BLOOD BELL",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        102,
+        70,
+        80,
+        15,
+        37,
+        35,
+        0
+      ],
+      "envelope": [
+        0,
+        92,
+        0,
+        89
+      ],
+      "effects": [
+        28,
+        58,
+        34,
+        84
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 43,
+      "name": "CRYPT CHIME",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        39,
+        12,
+        86,
+        24,
+        6,
+        46,
+        0
+      ],
+      "envelope": [
+        0,
+        96,
+        0,
+        94
+      ],
+      "effects": [
+        35,
+        67,
+        41,
+        91
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 44,
+      "name": "GLASS FANG",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        52,
+        29,
+        92,
+        33,
+        17,
+        57,
+        7
+      ],
+      "envelope": [
+        0,
+        100,
+        0,
+        99
+      ],
+      "effects": [
+        6,
+        76,
+        48,
+        98
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 45,
+      "name": "FUNERAL",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        65,
+        46,
+        98,
+        42,
+        28,
+        68,
+        12
+      ],
+      "envelope": [
+        0,
+        104,
+        0,
+        104
+      ],
+      "effects": [
+        13,
+        25,
+        55,
+        105
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 46,
+      "name": "IRON CROSS",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        78,
+        63,
+        104,
+        51,
+        39,
+        79,
+        -5
+      ],
+      "envelope": [
+        0,
+        108,
+        0,
+        109
+      ],
+      "effects": [
+        20,
+        34,
+        16,
+        112
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 47,
+      "name": "SILVER TOLL",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        91,
+        80,
+        110,
+        60,
+        8,
+        90,
+        0
+      ],
+      "envelope": [
+        0,
+        112,
+        0,
+        114
+      ],
+      "effects": [
+        27,
+        43,
+        23,
+        57
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 48,
+      "name": "MOON CHIME",
+      "category": "Bells",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 5,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        5,
+        104,
+        22,
+        116,
+        69,
+        19,
+        101,
+        12
+      ],
+      "envelope": [
+        0,
+        116,
+        0,
+        119
+      ],
+      "effects": [
+        34,
+        52,
+        30,
+        64
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 49,
+      "name": "BLOOD SILK",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        100,
+        62,
+        72,
+        6,
+        30,
+        24,
+        -12
+      ],
+      "envelope": [
+        50,
+        70,
+        104,
+        75
+      ],
+      "effects": [
+        24,
+        54,
+        30,
+        82
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 50,
+      "name": "RED VELVET",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        37,
+        79,
+        91,
+        15,
+        41,
+        35,
+        0
+      ],
+      "envelope": [
+        54,
+        73,
+        106,
+        81
+      ],
+      "effects": [
+        31,
+        63,
+        37,
+        89
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 51,
+      "name": "NIGHT STRNG",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        50,
+        21,
+        30,
+        24,
+        10,
+        46,
+        0
+      ],
+      "envelope": [
+        58,
+        76,
+        108,
+        87
+      ],
+      "effects": [
+        38,
+        72,
+        44,
+        96
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 52,
+      "name": "DARK THREAD",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        63,
+        38,
+        49,
+        33,
+        21,
+        57,
+        7
+      ],
+      "envelope": [
+        62,
+        79,
+        110,
+        93
+      ],
+      "effects": [
+        9,
+        81,
+        51,
+        103
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 53,
+      "name": "COFFIN BOW",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        76,
+        55,
+        68,
+        42,
+        32,
+        68,
+        12
+      ],
+      "envelope": [
+        66,
+        82,
+        112,
+        99
+      ],
+      "effects": [
+        16,
+        30,
+        12,
+        110
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 54,
+      "name": "GOTHIC SILK",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        89,
+        72,
+        87,
+        51,
+        43,
+        79,
+        -5
+      ],
+      "envelope": [
+        70,
+        85,
+        114,
+        105
+      ],
+      "effects": [
+        23,
+        39,
+        19,
+        55
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 55,
+      "name": "MOON STRNG",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        102,
+        14,
+        106,
+        60,
+        12,
+        90,
+        0
+      ],
+      "envelope": [
+        74,
+        88,
+        116,
+        111
+      ],
+      "effects": [
+        30,
+        48,
+        26,
+        62
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 56,
+      "name": "SHADOW VEIL",
+      "category": "Strings",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 6,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        6,
+        39,
+        31,
+        45,
+        69,
+        23,
+        101,
+        12
+      ],
+      "envelope": [
+        78,
+        91,
+        118,
+        117
+      ],
+      "effects": [
+        37,
+        57,
+        33,
+        69
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    },
+    {
+      "number": 57,
+      "name": "CATHEDRAL",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        35,
+        71,
+        60,
+        6,
+        0,
+        24,
+        -12
+      ],
+      "envelope": [
+        4,
+        80,
+        118,
+        68
+      ],
+      "effects": [
+        27,
+        59,
+        33,
+        87
+      ],
+      "filter_env": -12,
+      "lfo_rate": 20,
+      "lfo_depth": 5,
+      "matrix_amount": 6,
+      "level": 104
+    },
+    {
+      "number": 58,
+      "name": "BLACK ALTAR",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        48,
+        13,
+        68,
+        15,
+        2,
+        35,
+        0
+      ],
+      "envelope": [
+        7,
+        80,
+        118,
+        75
+      ],
+      "effects": [
+        34,
+        68,
+        40,
+        94
+      ],
+      "filter_env": -9,
+      "lfo_rate": 27,
+      "lfo_depth": 7,
+      "matrix_amount": 9,
+      "level": 104
+    },
+    {
+      "number": 59,
+      "name": "VESPER PIPE",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        61,
+        30,
+        76,
+        24,
+        4,
+        46,
+        0
+      ],
+      "envelope": [
+        10,
+        80,
+        118,
+        82
+      ],
+      "effects": [
+        41,
+        77,
+        47,
+        101
+      ],
+      "filter_env": -6,
+      "lfo_rate": 34,
+      "lfo_depth": 9,
+      "matrix_amount": 12,
+      "level": 104
+    },
+    {
+      "number": 60,
+      "name": "DARK ORGAN",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        74,
+        47,
+        84,
+        33,
+        6,
+        57,
+        7
+      ],
+      "envelope": [
+        13,
+        80,
+        118,
+        89
+      ],
+      "effects": [
+        12,
+        26,
+        54,
+        108
+      ],
+      "filter_env": -3,
+      "lfo_rate": 41,
+      "lfo_depth": 11,
+      "matrix_amount": 15,
+      "level": 104
+    },
+    {
+      "number": 61,
+      "name": "VAMPIRE MASS",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        87,
+        64,
+        92,
+        42,
+        8,
+        68,
+        12
+      ],
+      "envelope": [
+        16,
+        80,
+        118,
+        96
+      ],
+      "effects": [
+        19,
+        35,
+        15,
+        53
+      ],
+      "filter_env": 0,
+      "lfo_rate": 48,
+      "lfo_depth": 13,
+      "matrix_amount": 18,
+      "level": 104
+    },
+    {
+      "number": 62,
+      "name": "IRON PIPE",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        100,
+        81,
+        100,
+        51,
+        10,
+        79,
+        -5
+      ],
+      "envelope": [
+        19,
+        80,
+        118,
+        103
+      ],
+      "effects": [
+        26,
+        44,
+        22,
+        60
+      ],
+      "filter_env": 3,
+      "lfo_rate": 55,
+      "lfo_depth": 15,
+      "matrix_amount": 21,
+      "level": 104
+    },
+    {
+      "number": 63,
+      "name": "REQUIEM",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        37,
+        23,
+        108,
+        60,
+        12,
+        90,
+        0
+      ],
+      "envelope": [
+        22,
+        80,
+        118,
+        110
+      ],
+      "effects": [
+        33,
+        53,
+        29,
+        67
+      ],
+      "filter_env": 6,
+      "lfo_rate": 62,
+      "lfo_depth": 17,
+      "matrix_amount": 24,
+      "level": 104
+    },
+    {
+      "number": 64,
+      "name": "ETERNAL",
+      "category": "Organs",
+      "engine": "VAMPIRE",
+      "engine_id": 14,
+      "mode": 7,
+      "polyphony": 4,
+      "voice_mode": "POLY",
+      "engine_values": [
+        7,
+        50,
+        40,
+        116,
+        69,
+        14,
+        101,
+        12
+      ],
+      "envelope": [
+        25,
+        80,
+        118,
+        117
+      ],
+      "effects": [
+        40,
+        62,
+        36,
+        74
+      ],
+      "filter_env": 9,
+      "lfo_rate": 69,
+      "lfo_depth": 19,
+      "matrix_amount": 27,
+      "level": 104
+    }
+  ]
+}
