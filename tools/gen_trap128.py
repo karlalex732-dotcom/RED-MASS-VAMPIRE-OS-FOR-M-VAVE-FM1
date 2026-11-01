@@ -201,6 +201,8 @@ if descpath.exists():
    assert d['min']<=val<=d['max'],(p['name'],d['label'],val)
   for k,val in p['sound_controls'].items():
    d=desc['TP'][int(k)];assert d['min']<=val<=d['max'],(p['name'],d['label'],val)
+from dark_voicing import voice_dark_bank
+bank=voice_dark_bank(bank)
 for ei,(ename,old,poly) in engines.items():
  lines=['/* RED_MASS Trap Vampire: append-only factory entries. GPL-3.0-only. */']
  for p in bank:
@@ -234,6 +236,6 @@ lines+=['};','static void trap_patch_load(track_t *t, uint32_t pi) {',
 (out/'trap_bank.h').write_text('\n'.join(lines)+'\n')
 bd=root/'bank'; bd.mkdir(exist_ok=True)
 (bd/'RED-MASS-Trap-Vampire-128.spec.json').write_text(json.dumps(dict(format='red_mass-trap-vampire-bank',version=2,
- firmware='RED MASS VAMPIRE OS v0.2.0-alpha',status='native-rendered, physical FM1 not tested',
+ firmware='RED MASS VAMPIRE OS v0.5.2-beta',status='native-rendered, physical FM1 not tested',
  presets=bank),indent=2)+'\n')
 print('RED_MASS Trap Vampire: 128 POLY patches, 16 roles, 10 native engines; old factory indices retained')

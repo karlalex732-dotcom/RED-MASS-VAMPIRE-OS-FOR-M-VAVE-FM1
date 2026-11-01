@@ -85,6 +85,8 @@ for short,cut,drive,env,fx in pianos:
  n=len(bank)+129;e=[0,0,0,1,cut,0,drive,0];v=n-249
  vals=[0,0,0,31+v*3,0,0,0,0,0,0,0,0,0,*[a for row in [[3,4,22],[6,9,17],[7,2,13],[0,0,0]] for a in row]]
  bank.append(dict(number=n,name=f'{n:03d} {short}',role='piano',category='20 Sinister grand pianos',engine='SAMPLE',engine_id=4,factory_index=off[4],polyphony=8,voice_mode='POLY',engine_values=e,envelope=env,effects=fx,filter_env=0,sound_controls=dict(zip(ids,vals)),recommended_notes=[48,55,60,63],sample_source='Salamander piano, existing CC0 multisamples',articulation=short));off[4]+=1
+from dark_voicing import voice_dark_bank
+bank=voice_dark_bank(bank)
 assert len(bank)==128 and all(len(p['name'])<=13 for p in bank)
 dp=root/'build/host/desc.json'
 if dp.exists():
@@ -114,5 +116,5 @@ for p in old+bank:
  e,i=p['engine_id'],p['factory_index'];assert i<128
  assert tags[e][i]==0;tags[e][i]=(16 if p['number']<=128 else 32)|cat[p['role']]
 (out/'vampire256_browser.h').write_text('/* Curated 256 sound map. GPL-3.0-only. */\nstatic const uint8_t BANK_CATEGORY[16][128] = {\n'+'\n'.join(' {'+','.join(map(str,t))+'},' for t in tags)+'\n};\n')
-(root/'bank/RED-MASS-Club-Vampire-128.spec.json').write_text(json.dumps(dict(format='red_mass-club-vampire-bank',version=1,firmware='RED MASS VAMPIRE OS v0.4.0-alpha',presets=bank),indent=2)+'\n')
+(root/'bank/RED-MASS-Club-Vampire-128.spec.json').write_text(json.dumps(dict(format='red_mass-club-vampire-bank',version=1,firmware='RED MASS VAMPIRE OS v0.5.2-beta',presets=bank),indent=2)+'\n')
 print('Club128: 40 plucks + 40 pads + 40 leads + 8 sampled pianos; 256 curated total')

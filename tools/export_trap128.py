@@ -21,11 +21,13 @@ for p,n in zip(spec,native):
  pt=dict(name=p['name'],engine=n['engine'],engineName=p['engine'],params=n['params'],pattern=None,grid=None,
   tags=['Vampire','Trap',p['category'],'POLY'],number=p['number'],factoryPreset=n['factory'],
   created='2026-10-08T02:08:48.000Z',modified='2026-10-08T02:08:48.000Z')
+ if p['role'] not in {'sub','bass','reese','talkbass','perc'}:
+  pt['modified']='2026-11-01T00:00:00.000Z';pt['tags'].append('Dark 0.5.2')
  if n.get('fm6'):
   assert len(n['fm6'])==128 and n['fm6']==p['fm6'];pt['fm6']=n['fm6']
  patches.append(pt)
-b=dict(format='red-mass-library',version=1,kind='library',firmware='RED MASS VAMPIRE OS v0.2.0-alpha',
- pCount=91,pE0=83,paramLabels=labels,engines=[e['name'] for e in desc['ENG']],exported='2026-10-08T02:08:48.000Z',patches=patches)
+b=dict(format='red-mass-library',version=1,kind='library',firmware='RED MASS VAMPIRE OS v0.5.2-beta',
+ pCount=91,pE0=83,paramLabels=labels,engines=[e['name'] for e in desc['ENG']],exported='2026-11-01T00:00:00.000Z',patches=patches)
 bd=root/'bank'
 (bd/'RED-MASS-Trap-Vampire-128.json').write_text(json.dumps(b,indent=2)+'\n')
 for i,letter in enumerate('ABCD'):

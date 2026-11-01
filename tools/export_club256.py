@@ -16,15 +16,15 @@ for p, n in zip(spec, native):
     for k, v in p['sound_controls'].items():
         assert n['params'][int(k)] == v
     patch = dict(name=p['name'], engine=n['engine'], engineName=p['engine'], params=n['params'],
-                 pattern=None, grid=None, tags=['Vampire','Club',p['category'],'POLY'],
+                 pattern=None, grid=None, tags=['Vampire','Club',p['category'],'POLY','Dark 0.5.2'],
                  number=p['number'], factoryPreset=n['factory'],
-                 created='2026-10-09T00:00:00.000Z', modified='2026-10-09T00:00:00.000Z')
+                 created='2026-10-09T00:00:00.000Z', modified='2026-11-01T00:00:00.000Z')
     if n.get('fm6'):
         assert len(n['fm6']) == 128 and n['fm6'] == p['fm6']
         patch['fm6'] = n['fm6']
     patches.append(patch)
 assert len({p['name'] for p in patches}) == 256
-out = dict(old, format='red-mass-library', firmware='RED MASS VAMPIRE OS v0.5.1-alpha', exported='2026-10-09T00:00:00.000Z', patches=patches)
+out = dict(old, format='red-mass-library', firmware='RED MASS VAMPIRE OS v0.5.2-beta', exported='2026-11-01T00:00:00.000Z', patches=patches)
 bank = root/'bank'
 (bank/'RED-MASS-VAMPIRE-256.json').write_text(json.dumps(out,indent=2)+'\n')
 (bank/'RED-MASS-Club-Vampire-128.json').write_text(json.dumps(dict(out,patches=patches[128:]),indent=2)+'\n')
@@ -34,7 +34,7 @@ for i, letter in enumerate('ABCDEFGH'):
 all_spec = json.loads((bank/'RED-MASS-Trap-Vampire-128.spec.json').read_text())['presets'] + spec
 with (bank/'RED-MASS-VAMPIRE-256.csv').open('w',newline='') as f:
     w = csv.writer(f)
-    w.writerow(['number','name','category','role','engine','factory_index','track_voice_cap','new_in_v0.4'])
+    w.writerow(['number','name','category','role','engine','factory_index','track_voice_cap','new_in_v0.4','dark_revoiced'])
     for p in all_spec:
-        w.writerow([p['number'],p['name'],p['category'],p['role'],p['engine'],p['factory_index'],p['polyphony'],int(p['number']>128)])
-print('256 exact native records; old 128 retained; 128 new; eight optional 32-slot bank files')
+        w.writerow([p['number'],p['name'],p['category'],p['role'],p['engine'],p['factory_index'],p['polyphony'],int(p['number']>128),int(p['role'] not in {'sub','bass','reese','talkbass','perc'})])
+print('256 exact native records; 216 darker voicings + 40 protected; eight optional 32-slot bank files')
