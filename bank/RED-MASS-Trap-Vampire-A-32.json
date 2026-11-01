@@ -2,7 +2,7 @@
   "format": "red-mass-library",
   "version": 1,
   "kind": "bank",
-  "firmware": "RED MASS VAMPIRE OS v0.2.0-alpha",
+  "firmware": "RED MASS VAMPIRE OS v0.5.2-beta",
   "pCount": 91,
   "pE0": 83,
   "paramLabels": [
@@ -113,9 +113,10 @@
     "NOISE",
     "FM6",
     "SLICE",
-    "VAMPIRE"
+    "VAMPIRE",
+    "SMPKIT"
   ],
-  "exported": "2026-10-08T02:08:48.000Z",
+  "exported": "2026-11-01T00:00:00.000Z",
   "patches": [
     {
       "name": "001 CRYPT808",
