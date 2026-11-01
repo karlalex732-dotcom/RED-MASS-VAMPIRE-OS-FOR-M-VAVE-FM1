@@ -1,11 +1,14 @@
 # RED MASS VAMPIRE OS
 
-**GPL-3.0 source repository.** The tagged `v0.5.1-alpha` GitHub Release should carry `RED-MASS-VAMPIRE-OS-v0.5.1-alpha-FM1.fwsc` as a separate downloadable asset. The Windows installer executable is not in this repository or release bundle.
+> **v0.5.2-beta:** 216 darker voicings; 32 bass/808 sounds, eight percussion presets and both trap kits preserved. Factory numbers and names stay. See `docs/DARK-BANK-0.5.2-RU.md` for installation, A/B listening and validation.
+
+
+**GPL-3.0 source repository.** The tagged `v0.5.2-beta` GitHub Release carries `RED-MASS-VAMPIRE-OS-v0.5.2-beta-FM1.fwsc` as a separate downloadable asset. The release includes a separate complete Windows installer bundle; the repository contains the corresponding source.
 
 
 Developer and contributor: **Karsei**.
 
-Custom GPL-3.0-only firmware for the M-VAVE FM1. v0.5.1-alpha adds the RED MASS interface, uniform bold fonts, two original trap kits and six independent tracks: five instruments plus drums on track 6. The eight-voice budget is shared.
+Custom GPL-3.0-only firmware for the M-VAVE FM1. The firmware includes the RED MASS interface, uniform bold fonts, two original trap kits and six independent tracks: five instruments plus drums on track 6. The eight-voice budget is shared.
 
 256 curated built-in sounds, including eight sampled grand-piano variations; 32 editable user slots; 64 steps per track; 32 Song Mode rows using four project sources; automation, scenes, macros, microtiming and the twelve performance tools.
 
@@ -18,7 +21,7 @@ python3 -m pip install Pillow fonttools
 sh tools/get_toolchain.sh
 export JIELI_TOOLCHAIN="$HOME/.jieli/toolchain"
 export AC79_SDK="$HOME/fw-AC79_AIoT_SDK"
-python3 tools/build.py --release 0.5.1-alpha --identity FM-1_906
+python3 tools/build.py --release 0.5.1-alpha --identity FM-1_907
 sh tests/run_tests.sh
 ```
 

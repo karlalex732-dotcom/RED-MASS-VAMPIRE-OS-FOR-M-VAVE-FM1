@@ -43,10 +43,10 @@ still hold every selectable engine and INIT. The release uses `RED_MASS_FM4=0`.
 To reproduce this RED MASS VAMPIRE OS release with the toolchain and SDK paths configured:
 
 ```
-python3 tools/build.py --release 0.5.1-alpha --identity FM-1_906
+python3 tools/build.py --release 0.5.2-beta --identity FM-1_907
 ```
 
-This creates `build/red_mass-0.5.1-alpha.fwsc` with identity `FM-1_906`.
+This creates `build/red_mass-0.5.2-beta.fwsc` with identity `FM-1_907`.
 Run `sh tests/run_tests.sh` after the build. The target cost check retains the
 existing render-loop budgets; `phys_fade` has its own budget because it replaces
 the PHYS render loop only while a stolen voice fades.
